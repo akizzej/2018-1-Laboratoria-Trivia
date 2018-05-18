@@ -1,9 +1,10 @@
 window.onload = function() {
-    var name = HTMLButtonElement("¿cuál es tu nombre?");
-    document.getElementById("name").innerText = name;
+    var user=document.getElementById("name");
+    
+    var name =document.getElementById("user").innerText = name;
 
-    var wantToPlay = prompt("¿quieres jugar? s/n");
-    if (wantToPlay.toLowerCase() == "s") {
+    var question = ("¿Cual es tu Nombre");
+    if (question) == "") {
         var answer1 = prompt("¿han egresado hombres en Laboratoria? s/n");
         if (answer1.toLowerCase() == "n") {
             document.getElementById("rightAnswersText").innerHTML =
